@@ -1,0 +1,79 @@
+
+* {
+  box-sizing: border-box;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+}
+
+.tb-preview {
+  padding: 40px;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+.stacked-button-root {
+  width: 100%;
+  height: 100%;
+  padding-top: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.stacked-button-header {
+  font-size: 32px;
+  height: 40px;
+}
+
+.stacked-button-progress {
+  width: 150px;
+  height: 18px;
+  margin-top: 37px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+.stacked-button-divider {
+  height: 2px;
+  width: 100%;
+  background-color: #32bfca;
+}
+
+.stacked-button-dot-container {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.stacked-button-dot {
+  background-color: #32bfca;
+  height: 14px;
+  width: 14px;
+  border-radius: 14px;
+  border: 1px solid #32bfca;
+}
+
+.stacked-button-last-dot {
+  background-color: #ffffff;
+}
+
+.stacked-button-description {
+  font-size: 17;
+  height: 25px;
+  margin-top: 64px;
+}
