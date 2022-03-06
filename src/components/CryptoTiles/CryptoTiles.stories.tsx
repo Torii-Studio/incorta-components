@@ -1,8 +1,11 @@
+import React from "react";
 import { number, object } from "@storybook/addon-knobs";
-import { CRYPTO_COINS_DATA } from "../../constants/sampleData";
+
+import { CRYPTO_COINS_DATA } from "constants/sampleData";
+
 import CryptoTiles from "./CryptoTiles";
 
-const Story = {
+const Story: any = {
   title: "CryptoTiles",
   component: CryptoTiles,
 };

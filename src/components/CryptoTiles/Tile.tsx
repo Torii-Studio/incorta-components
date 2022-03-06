@@ -1,7 +1,8 @@
+import React from "react";
 import clsx from "clsx";
 import isEmpty from "lodash/isEmpty";
 
-import { useStyles, useCryptoCoin } from "../../hooks";
+import { useStyles, useCryptoCoin } from "hooks";
 
 import IconBox from "./IconBox";
 import Sparkline from "./Sparkline";

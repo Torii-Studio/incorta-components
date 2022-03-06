@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-import { CoinAPI } from '../api';
+import { CoinAPI } from 'api';
 
 const INTERVAL_TIMEOUT_MS = 30000;
 

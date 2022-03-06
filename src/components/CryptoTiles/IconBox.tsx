@@ -1,6 +1,6 @@
 import React from "react";
 
-import { useStyles } from "../../hooks";
+import { useStyles } from "hooks";
 
 import styles from "./CryptoTilesStyles";
 

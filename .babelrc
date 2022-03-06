@@ -1,0 +1,40 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "modules": false
+      }
+    ],
+    "@babel/preset-typescript"
+  ],
+  "env": {
+    "test": {
+      "presets": [
+        [
+          "@babel/preset-env",
+          {
+            "modules": "commonjs"
+          }
+        ]
+      ]
+    }
+  },
+  "plugins": [
+    "transform-class-properties",
+    "@babel/plugin-proposal-class-properties",
+    [
+      "module-resolver",
+      {
+        "root": "./src",
+        "alias": {
+          "api": "./src/api",
+          "utils": "./src/utils",
+          "constants": "./src/constants",
+          "components": "./src/components",
+          "hooks": "./src/hooks"
+        }
+      }
+    ]
+  ]
+}

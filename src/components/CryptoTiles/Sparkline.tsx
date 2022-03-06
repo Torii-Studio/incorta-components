@@ -1,3 +1,4 @@
+import React from "react";
 import { Sparklines, SparklinesLine } from "react-sparklines";
 
 interface CryptoPairProps {
